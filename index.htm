@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>
+Phasmo
+</title>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+/>
+
+<style>
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
+
+html {
+background-color: #ffffff;
+}
+body {
+font-family: "Roboto Mono", monospace;
+color: #0a0a23;
+font-size: 18px;
+padding: 69px;
+line-height: 1.4;
+text-align: center;
+margin-top: 5vw;
+}
+html,
+body {
+height: 90%;
+}
+body {
+margin: 0
+}
+h1,
+form,
+button {
+text-align: left;
+}
+.flex-container {
+height: 100%;
+padding: 0;
+diplay: -webkit-box;
+diplay: -moz-box;
+diplay: -ms-flexbox;
+diplay: -webkit-fex;
+diplay: flex;
+align-items: center;
+justify-content: center;
+}
+</style>
+</head>
+<body>
+<div class="flex-container">
+<div class="message-container">
+<h1>Phasmo?</h1>
+<form action="#">
+<label for="igen"><input id="igen" value="igen" type="radio" name="phasmo" checked> Igen</label>
+<label for="persze"><input id="persze" value="persze" type="radio" name="phasmo"> Persze</label>
+<label for="hogyne"><input id="hogyne" value="hogyne" type="radio" name="phasmo"> Hogyne</label><br>
+<input type="button" name="Submit"value="Küldés">
+</form>
+</div>
+</div>
+</body>
+</html>
